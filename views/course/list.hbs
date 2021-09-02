@@ -1,0 +1,16 @@
+<h1>
+    Simplilearn course
+</h1>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>amount</th>
+    </tr>
+    {{#each data}}
+    <tr>
+        <td>{{this.name}}</td>
+        <td>{{this.amount}}</td>
+    </tr>
+    {{/each}}
+</table>
